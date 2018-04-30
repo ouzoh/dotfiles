@@ -1,6 +1,6 @@
 [user]
-    email = wesdoyle08@gmail.com
-    name = wesdoyle
+    email = ogaga.uzoh@gmail.com
+    name = ouzoh
 
 [color]
     diff = auto
@@ -22,4 +22,4 @@
 [push]
     default = simple
 [core]
-	editor = code
+    editor = vim
