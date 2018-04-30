@@ -58,9 +58,9 @@ fi
 
 if [ "$color_prompt" = yes ]; then
    # PS1='\[\e]0;\w\a\]\n\[\e[94m\]\u@\h: \[\e[92m\]\w\[\e[0m\]\n\$ '
-    PS1='\[\e]0;\w\a\]\n\[\e[38;5;39m\]\u@\h: \[\e[38;5;103m\]\w\[\e[0m\]\n\$ '
+    PS1='\[\e]0;\w\a\]\n\[\e[38;5;39m\]\u@: \[\e[38;5;103m\]\w\[\e[0m\]\n\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -121,4 +121,4 @@ fi
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # added by Anaconda3 4.3.1 installer
-export PATH="/home/finn/anaconda3/bin:$PATH"
+export PATH="/home/ouzoh/anaconda3/bin:$PATH"

@@ -5,12 +5,12 @@
 export CURRENT_PROJECT="blog"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/wes/.oh-my-zsh
+export ZSH=/home/ouzoh/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -122,12 +122,12 @@ alias editvimrc="vim ~/dotfiles/.vimrc"
 alias edittmux="vim ~/dotfiles/tmux.config"
 
 # heroku stuff
-alias hl="heroku login"
+# alias hl="heroku login"
 
 # vps stuff
 alias finnegan="ssh root@$FINNEGAN_VPS"
 
-source virtualenvwrapper.sh
-export PROJECT_HOME=/home/wes/projects
+# source virtualenvwrapper.sh
+export PROJECT_HOME=/home/ouzoh/projects
 export GOPATH=$HOME/Go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
